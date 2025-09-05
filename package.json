@@ -1,0 +1,23 @@
+{
+  "name": "telegram-decorated-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for decorated messages broadcasting",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.21.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.6"
+  },
+  "keywords": ["telegram", "bot", "vercel"],
+  "author": "Your Name",
+  "license": "MIT"
+}
