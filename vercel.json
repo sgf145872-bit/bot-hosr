@@ -10,16 +10,11 @@
     {
       "src": "/(.*)",
       "dest": "/index.ts",
-      "methods": ["GET", "POST", "OPTIONS"],
+      "methods": ["POST", "GET", "OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "Content-Type"
       }
     }
-  ],
-  "functions": {
-    "index.ts": {
-      "maxDuration": 60
-    }
-  }
+  ]
 }
